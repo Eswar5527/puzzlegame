@@ -1,0 +1,37 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 1400px 600px;
+    background-color: #111010;
+    color: rgb(247, 242, 242);
+    font-style: oblique;
+}
+img{
+    height: 150px;
+    width: 175px;
+    background-color:white;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: darkgrey;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px darkgrey;
+  }
+  
+  .button:hover {background-color: yellow}
+  
+  .button:active {
+    background-color: yellow;
+    box-shadow: 0 5px darkgray;
+    transform: translateY(4px);
+  }
+  .hiddenpara {
+    display: none;
+}

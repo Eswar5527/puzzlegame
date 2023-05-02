@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <head>
+        <title>finished</title>
+        <link rel="stylesheet" href="s2.css">
+        <script src="final.js"></script>
+    </head>
+    <body>
+        <div style="margin-top: 100px;">
+        <div align="center">
+        <h1 style="color: yellow;font-size: 60px;" align="center">GAME FINISHED</h1>
+        <label  style="color: yellow;font-size: 30PX;">CURRENT SCORE:</label>
+        <h2 id="currn-score">0</h2>
+        <label style="color: yellow;font-size: 30PX;">CURRENT TOTAL TIME:</label>
+        <h2 id="currn-time">0</h2>
+        <label style="color: yellow;font-size: 30PX;">HIGHEST SCORE:</label>
+        <h2 id="highest-score">0</h2>
+        </div>
+        <div align="center">
+            <button class="button" onclick="playagain()">PLAY AGAIN</button>
+            <button class="button" style="margin-left: 40px;" onclick="exit()">EXIT</button>
+        </div>
+        </div>
+        <script>calcscore()</script>
+    </body>
+</html>
