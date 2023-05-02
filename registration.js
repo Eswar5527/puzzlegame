@@ -17,7 +17,7 @@ const signup = async () => {
       },
       body: JSON.stringify(data),
     };
-    fetch("http://localhost:4000/user/signup", options)
+    fetch("https://elitmus-backend-p0vq.onrender.com/user/signup", options)
       .then((data) => {
         if(data.status===409)
         {

@@ -62,7 +62,7 @@ const addData = async () => {
       },
       body: JSON.stringify(data),
     };
-    fetch("http://localhost:4000/level/add", options)
+    fetch("https://elitmus-backend-p0vq.onrender.com/level/add", options)
       .then((data) => {
         if (!data.ok) {
           throw Error(data.status);

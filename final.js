@@ -17,7 +17,7 @@ const calcscore = async () => {
       "Content-type": "application/json; charset=UTF-8",
     },
   };
-  fetch("http://localhost:4000/score/add", options)
+  fetch("https://elitmus-backend-p0vq.onrender.com/score/add", options)
     .then((data) => {
       if (!data.ok) {
         throw Error(data.status);

@@ -13,7 +13,7 @@ const login = async () => {
       },
       body: JSON.stringify(data),
     };
-    fetch("http://localhost:4000/user/login", options)
+    fetch("https://elitmus-backend-p0vq.onrender.com/user/login", options)
       .then((data) => {
         if (!data.ok) {
           if(data.status===401)
