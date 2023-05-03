@@ -5,7 +5,7 @@ function playagain()
 }
 function exit()
 {
-    location.href="login.html";
+    location.href="index.html";
 }
 
 const calcscore = async () => {
