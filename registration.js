@@ -30,7 +30,7 @@ const signup = async () => {
       })
       .then((update) => {
         console.log(data)
-        location.href="login.html";
+        location.href="index.html";
       })
       .catch((e) => {
         console.log(e);
